@@ -1,0 +1,38 @@
+# ===========================================
+# Visual Studio / IDE
+# ===========================================
+
+# Visual Studio folders (në çdo nivel)
+.vs/
+**/.vs/
+.vscode/
+**/.vscode/
+
+# Solution user options
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# JetBrains Rider
+.idea/
+**/.idea/
+*.sln.iml
+
+# ===========================================
+# Build Results
+# ===========================================
+
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# ===========================================
+# OS Files
+# ===========================================
+
+.DS_Store
+Thumbs.db
+

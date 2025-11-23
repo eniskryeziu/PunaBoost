@@ -1,0 +1,175 @@
+# ===========================================
+# .NET Build Results
+# ===========================================
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# ===========================================
+# Configuration & Secrets
+# ===========================================
+
+# App settings with secrets
+appsettings.Production.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Connection strings and secrets
+secrets.json
+*.secrets.json
+
+# ===========================================
+# Visual Studio / IDE
+# ===========================================
+
+# Visual Studio cache/options (në çdo nivel)
+.vs/
+**/.vs/
+.vscode/
+**/.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# .NET Core project files
+*.csproj.user
+*.csproj.vspscc
+*.userosscache
+
+# ===========================================
+# .NET Core / NuGet
+# ===========================================
+
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# ===========================================
+# Documents & Uploaded Files
+# ===========================================
+
+# Uploaded documents (resumes, company logos, etc.)
+Documents/Resumes/*
+Documents/CompaniesLogo/*
+!Documents/Resumes/.gitkeep
+!Documents/CompaniesLogo/.gitkeep
+
+# ===========================================
+# HTTP Test Files
+# ===========================================
+
+# HTTP test files (may contain sensitive data)
+*.http
+
+# ===========================================
+# Database
+# ===========================================
+
+*.db
+*.sqlite
+*.sqlite3
+Hangfire.lite.db
+
+# ===========================================
+# OS Files
+# ===========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# Other
+# ===========================================
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Azure
+.azure/
+
